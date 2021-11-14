@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+#corpo{
+    margin: 0;
+    background-image: url("../img/valente.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#cabecalho h1{
+    font-family: 'Satisfy', cursive;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    background-color: #f9faf7b4;
+    border-radius: 20px;  
+    color: rgb(7, 7, 87);
+}
+
+#resumo {
+    font-family: 'Satisfy', cursive;
+    align-items: flex-start; 
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    background-color: #f9faf7b4;
+    border-radius: 20px;  
+    color: rgb(7, 7, 87);
+    font-size: 25px;
+}
+
+#cabecalho h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+#principal{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#principal h2{
+    font-family: 'Parisienne', cursive;
+    margin: 5px;
+    margin-top: 40px;
+    font-size: 50px;
+    background-color: #f9faf7b4;
+    border-radius: 20px;  
+    color: rgb(7, 7, 87);
+}
+#principal ul{
+    font-family: 'Satisfy', cursive;
+    margin: 5px;
+    font-size: 25px;
+    background-color: #f9faf7b4;
+    border-radius: 20px;  
+    color: rgb(7, 7, 87);
+}
+
+#rodape {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: #f9faf7b4;
+    border-radius: 20px;
+}
+      
+.icones{
+    margin-right: 50px;
+}
+
+.imagens{
+    flex-grow: 0;
+}
+    
